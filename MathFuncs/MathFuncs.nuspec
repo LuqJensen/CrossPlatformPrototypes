@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>MathFuncs</id>
-    <version>1.0</version>
+    <version>1.3.9</version>
     <authors>Microsoft Mobile Customer Advisory Team</authors>
     <description>Sample C++ Wrapper Library</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -19,6 +19,16 @@
     <file src="MathFuncs.iOS/bin/Release/MathFuncs.dll" target="lib/Xamarin.iOS10/MathFuncs.dll" />
     <file src="MathFuncs.iOS/bin/Release/MathFuncs.pdb" target="lib/Xamarin.iOS10/MathFuncs.pdb" />
 	-->
+
+    <!-- UWP -->
+	<file src="MathFuncs.UWP/ARM/Release/MathFuncsWinRT/MathFuncsWinRT.dll" target="runtimes/win10-arm/native/MathFuncsWinRT.dll" />
+	<file src="MathFuncs.UWP/ARM/Release/MathFuncsWinRT/MathFuncsWinRT.pri" target="runtimes/win10-arm/native/MathFuncsWinRT.pri" />
+	<file src="MathFuncs.UWP/ARM64/Release/MathFuncsWinRT/MathFuncsWinRT.dll" target="runtimes/win10-arm64/native/MathFuncsWinRT.dll" />
+	<file src="MathFuncs.UWP/ARM64/Release/MathFuncsWinRT/MathFuncsWinRT.pri" target="runtimes/win10-arm64/native/MathFuncsWinRT.pri" />
+	<file src="MathFuncs.UWP/x64/Release/MathFuncsWinRT/MathFuncsWinRT.dll" target="runtimes/win10-x64/native/MathFuncsWinRT.dll" />
+	<file src="MathFuncs.UWP/x64/Release/MathFuncsWinRT/MathFuncsWinRT.pri" target="runtimes/win10-x64/native/MathFuncsWinRT.pri" />
+	<file src="MathFuncs.UWP/Release/MathFuncsWinRT/MathFuncsWinRT.dll" target="runtimes/win10-x86/native/MathFuncsWinRT.dll" />
+	<file src="MathFuncs.UWP/Release/MathFuncsWinRT/MathFuncsWinRT.pri" target="runtimes/win10-x86/native/MathFuncsWinRT.pri" />
     
     <!-- netstandard2.0 -->
     <file src="MathFuncs.Standard/bin/Release/netstandard2.0/MathFuncs.dll" target="lib/netstandard2.0/MathFuncs.dll" />
