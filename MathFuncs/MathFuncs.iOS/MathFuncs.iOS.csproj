@@ -45,7 +45,7 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="..\..\..\Artefacts\PrecompiledLibs\lib\ios\libMathFuncs.a">
+    <NativeReference Include="libs\libMathFuncs.a">
       <Kind>Static</Kind>
       <ForceLoad>True</ForceLoad>
       <IsCxx>True</IsCxx>
