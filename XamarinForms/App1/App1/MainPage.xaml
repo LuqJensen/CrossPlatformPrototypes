@@ -9,6 +9,9 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="Test C++" Clicked="Button_CPP"></Button>
+        <Button Text="Run benchmarks" Clicked="Button_Benchmarks"></Button>
+        <Editor x:Name="Output" Text="Output" HeightRequest="100"/>
     </StackLayout>
 
 </ContentPage>
