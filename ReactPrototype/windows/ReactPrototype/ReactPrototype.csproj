@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{3f8d6155-ced7-4770-92d7-f5a43556a5a6}</ProjectGuid>
+    <ProjectGuid>{3F8D6155-CED7-4770-92D7-F5A43556A5A6}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ReactPrototype</RootNamespace>
@@ -182,6 +182,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainReactNativeHost.cs" />
+    <Compile Include="MathFuncBridge\MathFuncModule.cs" />
+    <Compile Include="MathFuncBridge\MathFuncPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +212,10 @@
     <ProjectReference Include="..\..\node_modules\react-native-windows\ReactWindows\ReactNative\ReactNative.csproj">
       <Project>{c7673ad5-e3aa-468c-a5fd-fa38154e205c}</Project>
       <Name>ReactNative</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathFuncCpp\MathFuncCpp.vcxproj">
+      <Project>{ea1a4ea6-3c35-4157-b262-1e0bf5cd2470}</Project>
+      <Name>MathFuncCpp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup Condition="'$(Configuration)' == 'ReleaseBundle' or '$(Configuration)' == 'DebugBundle'">

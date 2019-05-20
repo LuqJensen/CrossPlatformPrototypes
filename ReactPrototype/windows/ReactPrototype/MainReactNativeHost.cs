@@ -2,6 +2,7 @@
 using ReactNative.Modules.Core;
 using ReactNative.Shell;
 using System.Collections.Generic;
+using MathFuncBridge;
 
 namespace ReactPrototype
 {
@@ -24,6 +25,7 @@ namespace ReactPrototype
         protected override List<IReactPackage> Packages => new List<IReactPackage>
         {
             new MainReactPackage(),
+            new MathFuncPackage()
         };
     }
 }
