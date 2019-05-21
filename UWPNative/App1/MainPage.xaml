@@ -9,5 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button Content="Run Benchmarks" Click="ButtonBase_OnClick" HorizontalAlignment="Center" Margin="0,641,0,0" VerticalAlignment="Top" Height="86" Width="182" />
+        <TextBox 
+            TextWrapping="Wrap"
+            AcceptsReturn="True" Name="Output" HorizontalAlignment="Center" Text="Output" VerticalAlignment="Top" RenderTransformOrigin="4.899,15.823" Margin="0,732,0,0" Height="103" Width="1052"/>
     </Grid>
 </Page>
