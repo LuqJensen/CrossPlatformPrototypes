@@ -12,6 +12,8 @@
 		772D1E7F22948EE600907A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772D1E7D22948EE600907A85 /* Main.storyboard */; };
 		772D1E8122948EE800907A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772D1E8022948EE800907A85 /* Assets.xcassets */; };
 		772D1E8422948EE800907A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772D1E8222948EE800907A85 /* LaunchScreen.storyboard */; };
+		77C26CD92294C7C8006A2414 /* howto in Resources */ = {isa = PBXBuildFile; fileRef = 77C26CD72294C7C8006A2414 /* howto */; };
+		77C26CDA2294C7C8006A2414 /* 5million.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77C26CD82294C7C8006A2414 /* 5million.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		772D1E8022948EE800907A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		772D1E8322948EE800907A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		772D1E8522948EE800907A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C26CD72294C7C8006A2414 /* howto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = howto; path = iOSNative/howto; sourceTree = "<group>"; };
+		77C26CD82294C7C8006A2414 /* 5million.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 5million.txt; path = iOSNative/5million.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		772D1E6D22948EE600907A85 = {
 			isa = PBXGroup;
 			children = (
+				77C26CD82294C7C8006A2414 /* 5million.txt */,
+				77C26CD72294C7C8006A2414 /* howto */,
 				772D1E7822948EE600907A85 /* iOSNative */,
 				772D1E7722948EE600907A85 /* Products */,
 			);
@@ -124,7 +130,9 @@
 			files = (
 				772D1E8422948EE800907A85 /* LaunchScreen.storyboard in Resources */,
 				772D1E8122948EE800907A85 /* Assets.xcassets in Resources */,
+				77C26CD92294C7C8006A2414 /* howto in Resources */,
 				772D1E7F22948EE600907A85 /* Main.storyboard in Resources */,
+				77C26CDA2294C7C8006A2414 /* 5million.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
