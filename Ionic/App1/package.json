@@ -26,7 +26,7 @@
     "@ionic/angular": "^4.1.0",
     "cordova-android": "8.0.0",
     "cordova-ios": "5.0.1",
-    "cordova-windows": "7.1.0-nightly.2019.5.19.b950b256",
+    "cordova-windows": "7.1.0-nightly.2019.5.24.b950b256",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
@@ -71,13 +71,15 @@
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
-      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-webview": {
+        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+      },
       "cordova-plugin-ionic-keyboard": {}
     },
     "platforms": [
-      "windows",
       "android",
-      "ios"
+      "ios",
+      "windows"
     ]
   }
 }
