@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{3F8D6155-CED7-4770-92D7-F5A43556A5A6}</ProjectGuid>
+    <ProjectGuid>{DA7077E6-5AC6-4F35-AC4E-2432D0A36F6C}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ReactPrototype</RootNamespace>
@@ -17,7 +17,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>ReactPrototype_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>60197595C4EAE6B17A28F4AEF8F4177C07F69651</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>36830DB7EB4816F996E2D1C798087FCC987119FE</PackageCertificateThumbprint>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <DependencyConfiguration>Debug</DependencyConfiguration>
   </PropertyGroup>
