@@ -1,0 +1,7 @@
+math_func = interface +c {
+  static create(): math_func;
+  add(a: f64, b: f64): f64;
+  subtract(a: f64, b: f64): f64;
+  multiply(a: f64, b: f64): f64;
+  divide(a: f64, b: f64): f64;
+}
