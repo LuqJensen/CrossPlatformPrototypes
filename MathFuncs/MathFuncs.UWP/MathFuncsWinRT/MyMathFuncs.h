@@ -1,8 +1,11 @@
-namespace MathFuncs
+#pragma once
+
+namespace MathFuncsWinRT
 {
-    class MyMathFuncs
+    public ref class MyMathFuncs sealed
     {
     public:
+        MyMathFuncs();
         double Add(double a, double b);
         double Subtract(double a, double b);
         double Multiply(double a, double b);
